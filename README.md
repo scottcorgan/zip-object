@@ -16,8 +16,8 @@ Either takes two arrays or an array of arrays as the argument(s).
 var zipObject = require('zip-object');
 var zipped = zipObject(['key1', 'key2'], ['value1', 'value2']);
 
-console.log(zipped.key1); // outpus 'value1'
-console.log(zipped.key2); // outpus 'value2'
+console.log(zipped.key1); // outputs 'value1'
+console.log(zipped.key2); // outputs 'value2'
 ```
 
 ## Run Tests
