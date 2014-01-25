@@ -10,6 +10,8 @@ npm install zip-object --save
 
 ## Usage
 
+Either takes two arrays or an array of arrays as the argument(s).
+
 ```js
 var zipObject = require('zip-object');
 var zipped = zipObject(['key1', 'key2'], ['value1', 'value2']);
